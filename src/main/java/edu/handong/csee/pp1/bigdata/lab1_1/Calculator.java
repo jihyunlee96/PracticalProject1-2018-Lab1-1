@@ -80,6 +80,10 @@ public class Calculator {
 	void print(String prefix, int result) {
 		System.out.println(prefix + " " + result);
 	}
+	
+	void print(String prefix, double result) {
+		System.out.println(prefix + " " + result);
+	}
 
 	int sum(int first, int second) {
 		countForAnyCompution++;
@@ -99,13 +103,13 @@ public class Calculator {
 		return first * second;
 	}
 
-	int divide(int first, int second) {
+	double divide(int first, int second) {
 		countForAnyCompution++;
 		localCount++;
 		
 		if (second == 0) {
 			System.out.println("Error: divider is zero.");
-			return 0;
+			return Double.NaN;
 		}
 		
 		return first / second;
