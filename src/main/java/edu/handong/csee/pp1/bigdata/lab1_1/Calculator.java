@@ -62,11 +62,11 @@ public class Calculator {
 		int firstIntArg = Integer.parseInt(firstArg);
 		int secondIntArg = Integer.parseInt(secondArg);
 
-		countForAnyCompution=0;
+		countForAnyCompution = 0;
 		localCount = 0;
 
 		print("SUM:" , sum(firstIntArg, secondIntArg));
-		print("SUB:" , this.subtract(firstIntArg, secondIntArg));
+		print("SUB:" , subtract(firstIntArg, secondIntArg));
 		print("*:" , multiply(firstIntArg, secondIntArg));
 		print("DV:" , divide(firstIntArg,secondIntArg));
 	}
