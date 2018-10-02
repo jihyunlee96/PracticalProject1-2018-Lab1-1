@@ -64,7 +64,7 @@ public class Calculator {
 
 		countForAnyCompution = 0;
 		localCount = 0;
-
+ 
 		print("SUM:" , sum(firstIntArg, secondIntArg));
 		print("SUB:" , subtract(firstIntArg, secondIntArg));
 		print("*:" , multiply(firstIntArg, secondIntArg));
