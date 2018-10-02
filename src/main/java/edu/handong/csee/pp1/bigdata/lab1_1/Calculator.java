@@ -112,7 +112,8 @@ public class Calculator {
 	}
 
 	int mod(int first, int second) {
-		// TODO implement the body of this method
+		countForAnyCompution++;
+		localCount++;
 		return first % second;
 	}
 
