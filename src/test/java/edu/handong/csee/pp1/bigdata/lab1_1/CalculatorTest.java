@@ -35,7 +35,7 @@ public class CalculatorTest {
 	@Test
 	public void testMultiply() {
 		Calculator myCalc = new Calculator();
-		assertEquals(myCalc.mod(10, 7),70);
+		assertEquals(myCalc.multiply(10, 7),70);
 	}
 	
 	@Test
